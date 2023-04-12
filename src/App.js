@@ -23,4 +23,5 @@ const denominationsList = [
 
 const App = () => <CashWithdrawal denominationsList={denominationsList} />
 
-export default CashWithdrawal
+// FIX1: App should be exported
+export default App
